@@ -11,9 +11,65 @@
 
 :root {
   --Light-gray: rgb(250, 250, 250);
-  --Dark-purple-blue: rgb(35, 34, 52);
+  --Slate-blue: rgb(40, 42, 51);
   --Lavender-gray: rgb(175, 174, 192);
   --Muted-teal-blue: rgb(77, 150, 169);
   --Light-purple: rgb(133, 95, 178);
 }
 
+
+body {
+  min-height: 100vh;
+  background-color: var(--Light-gray);
+  font-family: 'IBM Plex Sans';
+}
+
+
+section {
+  width: 100%;
+  /* max-width: 28rem; */
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+
+header {
+  padding: 4.375rem;
+}
+
+
+.meet_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+
+.hero-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 17px;
+}
+
+
+.hero_images {
+  width: 200px;
+  height: auto;
+}
+
+
+.text-1 {
+  color: var(--Slate-blue);
+  font-family: "Red Hat Display", sans-serif;
+  place-items: center;
+  margin: 57px;
+  line-height: ;
+}
+
+
+h1 {
+  font-weight: 800;
+}
