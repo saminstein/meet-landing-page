@@ -29,7 +29,6 @@ body {
 section {
   width: 100%;
   max-width: 28rem;
-  /* background-color: yellow; */
   margin: 0 auto;
 }
 
@@ -52,12 +51,12 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  column-gap: 17px;
+  column-gap: 1.0625rem;
 }
 
 
 .hero_images {
-  width: 200px;
+  width: 12.5rem;
   height: auto;
 }
 
@@ -84,7 +83,7 @@ header {
 
 .text-1 p {
   line-height: 1.5;
-  margin: 35px 35px;
+  margin: 2.1875rem 2.1875rem;
 }
 
 
@@ -96,16 +95,16 @@ header {
 
 
 .download_btn {
-  width: 190px;
-  padding: 20px;
-  border-radius: 27px;
+  width: 11.875rem;
+  padding: 1.25rem;
+  border-radius: 1.6875rem;
   background-color: var(--Deep-cyan);
   border: none;
-  margin-bottom: 21px;
+  margin-bottom: 1.3125rem;
   color: var(--Light-gray);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
   cursor: pointer;
 }
 
@@ -116,14 +115,14 @@ header {
 
 
 .info_btn {
-  width: 150px;
-  padding: 17px;
-  border-radius: 27px;
+  width: 9.375rem;
+  padding: 1.0625rem;
+  border-radius: 1.6875rem;
   background-color: var(--Light-purple);
   border: none;
   color: var(--Light-gray);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
   cursor: pointer;
 } 
