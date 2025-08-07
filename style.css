@@ -13,14 +13,15 @@
   --Light-gray: rgb(250, 250, 250);
   --Slate-blue: rgb(40, 42, 51);
   --Lavender-gray: rgb(175, 174, 192);
-  --Muted-teal-blue: rgb(77, 150, 169);
+  --Deep-cyan: rgb(77, 150, 169);
   --Light-purple: rgb(133, 95, 178);
+  --Light-cyan: rgb(142, 224, 245);
 }
 
 
 body {
   min-height: 100vh;
-  background-color: red;/*(--Light-gray); */
+  background-color: (--Light-gray);
   font-family: 'IBM Plex Sans';
 }
 
@@ -28,7 +29,7 @@ body {
 section {
   width: 100%;
   max-width: 28rem;
-  background-color: yellow;
+  /* background-color: yellow; */
   margin: 0 auto;
 }
 
@@ -90,4 +91,39 @@ header {
 .buttons-1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
+
+.download_btn {
+  width: 190px;
+  padding: 20px;
+  border-radius: 27px;
+  background-color: var(--Deep-cyan);
+  border: none;
+  margin-bottom: 21px;
+  color: var(--Light-gray);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.buttons-1 span {
+  color: var(--Light-cyan);
+}
+
+
+.info_btn {
+  width: 150px;
+  padding: 17px;
+  border-radius: 27px;
+  background-color: var(--Light-purple);
+  border: none;
+  color: var(--Light-gray);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+} 
