@@ -20,15 +20,15 @@
 
 body {
   min-height: 100vh;
-  background-color: var(--Light-gray);
+  background-color: red;/*(--Light-gray); */
   font-family: 'IBM Plex Sans';
 }
 
 
 section {
   width: 100%;
-  /* max-width: 28rem; */
-  /* background-color: red; */
+  max-width: 28rem;
+  background-color: yellow;
   margin: 0 auto;
 }
 
@@ -64,12 +64,30 @@ header {
 .text-1 {
   color: var(--Slate-blue);
   font-family: "Red Hat Display", sans-serif;
-  place-items: center;
-  margin: 57px;
-  line-height: ;
+  text-align: center;
+  margin: 3.5625rem;
 }
 
 
-h1 {
+.text-1 h1 {
   font-weight: 800;
+  font-size: 1.875rem;
+  line-height: 1.2;
+}
+
+
+.text-1 span {
+  display: block;
+}
+
+
+.text-1 p {
+  line-height: 1.5;
+  margin: 35px 35px;
+}
+
+
+.buttons-1 {
+  display: flex;
+  flex-direction: column;
 }
