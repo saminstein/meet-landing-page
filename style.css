@@ -56,7 +56,7 @@ header {
 
 
 .hero_images {
-  width: 12.5rem;
+  width: 11.5rem;
   height: auto;
 }
 
@@ -83,7 +83,9 @@ header {
 
 .text-1 p {
   line-height: 1.5;
-  margin: 2.1875rem 2.1875rem;
+  margin: 35px 5px 15px 5px;
+  text-align: center;
+  font-size: 15px;
 }
 
 
