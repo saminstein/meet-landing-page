@@ -85,7 +85,7 @@ header {
   line-height: 1.5;
   margin: 35px 5px 15px 5px;
   text-align: center;
-  font-size: 15px;
+  color: var(--Slate-blue);
 }
 
 
@@ -128,3 +128,39 @@ header {
   font-size: 0.875rem;
   cursor: pointer;
 } 
+
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.vertical-line {
+  background: var(--Slate-blue);
+  height: 90px;
+  width: 1px;
+  margin-top: 70px;
+  position: relative;
+}
+
+
+.circle {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  border: 1px solid var(--Slate-blue);
+  transform: translate(-50%, 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+
