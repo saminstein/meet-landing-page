@@ -13,11 +13,12 @@
   --Light-gray: rgb(250, 250, 250);
   --Slate-blue: rgb(40, 42, 51);
   --Lavender-gray: rgb(175, 174, 192);
+  --Purple-gray: rgb(149, 148, 162);
   --Deep-cyan: rgb(77, 150, 169);
   --Light-purple: rgb(133, 95, 178);
   --Light-cyan: rgb(142, 224, 245);
 }
-
+ 
 
 body {
   min-height: 100vh;
@@ -139,10 +140,11 @@ header {
 
 .vertical-line {
   background: var(--Slate-blue);
-  height: 90px;
+  height: 120px;
   width: 1px;
   margin-top: 70px;
   position: relative;
+  background: var(--Lavender-gray);
 }
 
 
@@ -151,16 +153,17 @@ header {
   width: 48px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 42%;
   border-radius: 50%;
-  border: 1px solid var(--Slate-blue);
+  border: 1px solid var(--Lavender-gray);
   transform: translate(-50%, 70px);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 23px;
+  font-size: 19px;
   font-weight: 700;
-  padding: 20px;
+  padding: 27px;
+  color: var(--Purple-gray);
 }
 
 
